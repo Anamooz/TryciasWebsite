@@ -1,4 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll.jsx";
+import graduationPhoto from "../../assets/photos/graduation.JPEG";
+import lazuliPhoto from "../../assets/photos/lazuli.JPG";
 
 export const About = () => {
   const frontendSkills = [
@@ -66,8 +68,8 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <img
-              src="src\assets\photos\graduation.JPEG"
-              alt="Dodge Game"
+              src={graduationPhoto}
+              alt="familyPhoto"
               className="w-full h-auto rounded-lg"
             />
           </div>
@@ -139,7 +141,7 @@ export const About = () => {
 
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <img
-                src="src\assets\photos\lazuli.JPG"
+                src={lazuliPhoto}
                 alt="lazuli"
                 className="w-full h-auto rounded-lg"
               />

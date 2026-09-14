@@ -1,4 +1,11 @@
 import { RevealOnScroll } from "../RevealOnScroll.jsx";
+import catPhoto from "../../assets/photos/cat2.webp";
+import snakeGameVideo from "../../assets/videos/snakeGame.mp4";
+import brickBreakerVideo from "../../assets/videos/brickBreaker.mp4";
+import rizzletVideo from "../../assets/videos/rizzlet.mov";
+import genshinImpactVideo from "../../assets/videos/genshinImpact.mp4";
+import vetScientiaVideo from "../../assets/videos/vetScientia.mp4";
+
 export const Projects = () => {
   return (
     <section
@@ -43,10 +50,7 @@ export const Projects = () => {
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30 hover:shadow-[0_2px-8px_rgba(59,130,2246,0.2)] transition">
               <video width="100%" height="100%" controls>
-                <source
-                  src="src\assets\videos\snakeGame.mp4"
-                  type="video/mp4"
-                />
+                <source src={snakeGameVideo} type="video/mp4" />
               </video>
             </div>
 
@@ -81,10 +85,7 @@ export const Projects = () => {
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30 hover:shadow-[0_2px-8px_rgba(59,130,2246,0.2)] transition">
               <video width="100%" height="100%" controls>
-                <source
-                  src="src\assets\videos\brickBreaker.mp4"
-                  type="video/mp4"
-                />
+                <source src={brickBreakerVideo} type="video/mp4" />
               </video>
             </div>
 
@@ -130,7 +131,7 @@ export const Projects = () => {
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30 hover:shadow-[0_2px-8px_rgba(59,130,2246,0.2)] transition">
               <video width="100%" height="100%" controls>
-                <source src="src\assets\videos\rizzlet.mov" type="video/mp4" />
+                <source src={rizzletVideo} type="video/mp4" />
               </video>
             </div>
 
@@ -168,10 +169,7 @@ export const Projects = () => {
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30 hover:shadow-[0_2px-8px_rgba(59,130,2246,0.2)] transition">
               <video width="100%" height="100%" controls>
-                <source
-                  src="src\assets\videos\genshinImpact.mp4"
-                  type="video/mp4"
-                />
+                <source src={genshinImpactVideo} type="video/mp4" />
               </video>
             </div>
 
@@ -203,10 +201,7 @@ export const Projects = () => {
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30 hover:shadow-[0_2px-8px_rgba(59,130,2246,0.2)] transition">
               <video width="100%" height="100%" controls>
-                <source
-                  src="src\assets\videos\vetScientia.mp4"
-                  type="video/mp4"
-                />
+                <source src={vetScientiaVideo} type="video/mp4" />
               </video>
             </div>
 
@@ -241,7 +236,7 @@ export const Projects = () => {
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30 hover:shadow-[0_2px-8px_rgba(59,130,2246,0.2)] transition">
               <img
-                src="src\assets\photos\cat2.webp"
+                src={catPhoto}
                 alt="Dodge Game"
                 className="w-full h-auto rounded-lg"
               />
