@@ -13,8 +13,7 @@ export const Home = () => {
           </h1>
 
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I was born and raised in California. I went to California
-            Polytechnic, San luis Obispo and graduated with a B.S in Software
+            I was born and raised in California. I went to Cal Poly San Luis Obispo and graduated with a BS in Software
             Engineering. I love to create and design web applications. My goal
             is to become a full-stack developer and work on accessible projects
             that make a difference in people's lives.
